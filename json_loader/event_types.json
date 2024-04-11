@@ -1,0 +1,138 @@
+[
+    {
+        "type_id" : 42,
+        "type_name" : "Ball Receipt"
+    },
+    {
+        "type_id" : 2,
+        "type_name" : "Ball Recovery"
+    },
+    {
+        "type_id" : 3,
+        "type_name" : "Dispossessed"
+    },
+    {
+        "type_id" : 4,
+        "type_name" : "Duel"
+    },
+    {
+        "type_id" : 5,
+        "type_name" : "Camera On"
+    },
+    {
+        "type_id" : 6,
+        "type_name" : "Block"
+    },
+    {
+        "type_id" : 8,
+        "type_name" : "Offside"
+    },
+    {
+        "type_id" : 9,
+        "type_name" : "Clearance"
+    },
+    {
+        "type_id" : 10,
+        "type_name" : "Interception"
+    },
+    {
+        "type_id" : 14,
+        "type_name" : "Dribble"
+    },
+    {
+        "type_id" : 16,
+        "type_name" : "Shot"
+    },
+    {
+        "type_id" : 17,
+        "type_name" : "Pressure"
+    },
+    {
+        "type_id" : 18,
+        "type_name" : "Half Start"
+    },
+    {
+        "type_id" : 19,
+        "type_name" : "Substitution"
+    },
+    {
+        "type_id" : 20,
+        "type_name" : "Own Goal Against"
+    },
+    {
+        "type_id" : 21,
+        "type_name" : "Foul Won"
+    },
+    {
+        "type_id" : 22,
+        "type_name" : "Foul Committed"
+    },
+    {
+        "type_id" : 23,
+        "type_name" : "Goalkeeper"
+    },
+    {
+        "type_id" : 24,
+        "type_name" : "Bad Behaviour"
+    },
+    {
+        "type_id" : 25,
+        "type_name" : "Own Goal For"
+    },
+    {
+        "type_id" : 26,
+        "type_name" : "Player On"
+    },
+    {
+        "type_id" : 27,
+        "type_name" : "Player Off"
+    },
+    {
+        "type_id" : 28,
+        "type_name" : "Shield"
+    },
+    {
+        "type_id" : 30,
+        "type_name" : "Pass"
+    },
+    {
+        "type_id" : 33,
+        "type_name" : "50/50"
+    },
+    {
+        "type_id" : 34,
+        "type_name" : "Half End"
+    },
+    {
+        "type_id" : 35,
+        "type_name" : "Starting XI"
+    },
+    {
+        "type_id" : 36,
+        "type_name" : "Tactical Shift"
+    },
+    {
+        "type_id" : 37,
+        "type_name" : "Error"
+    },
+    {
+        "type_id" : 38,
+        "type_name" : "Miscontrol"
+    },
+    {
+        "type_id" : 39,
+        "type_name" : "Dribbled Past"
+    },
+    {
+        "type_id" : 40,
+        "type_name" : "Injury Stoppage"
+    },
+    {
+        "type_id" : 41,
+        "type_name" : "Referee Ball-Drop"
+    },
+    {
+        "type_id" : 43,
+        "type_name" : "Carry"
+    }
+]

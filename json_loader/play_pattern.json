@@ -1,0 +1,37 @@
+[{
+    "id" : 1,
+    "name" : "Regular Play"
+},
+{
+    "id" : 2,
+    "name" : "From Corner"
+},
+{
+    "id" : 3,
+    "name" : "From Free Kick"
+},
+{
+    "id" : 4,
+    "name" : "From Throw In"
+},
+{
+    "id" : 5,
+    "name" : "Other"
+},
+{
+    "id" : 6,
+    "name" : "From Counter"
+},
+{
+    "id" : 7,
+    "name" : "From Goal Kick"
+},
+{
+    "id" : 8,
+    "name" : "From Keeper"
+},
+{
+    "id" : 9,
+    "name" : "From Kick Off"
+}
+]

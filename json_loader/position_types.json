@@ -1,0 +1,106 @@
+[
+{
+    "position_id" : 1,
+    "position_name" : "Goalkeeper"
+},
+{
+    "position_id" : 2,
+    "position_name" : "Right Back"
+},
+{
+    "position_id" : 3,
+    "position_name" : "Right Center Back"
+},
+{
+    "position_id" : 4,
+    "position_name" : "Center Back"
+},
+{
+    "position_id" : 5,
+    "position_name" : "Left Center Back"
+},
+{
+    "position_id" : 6,
+    "position_name" : "Left Back"
+},
+{
+    "position_id" : 7,
+    "position_name" : "Right Wing Back"
+},
+{
+    "position_id" : 8,
+    "position_name" : "Left Wing Back"
+},
+{
+    "position_id" : 9,
+    "position_name" : "Right Defensive Midfield"
+},
+{
+    "position_id" : 10,
+    "position_name" : "Center Defensive Midfield"
+},
+{
+    "position_id" : 11,
+    "position_name" : "Left Defensive Midfield"
+},
+{
+    "position_id" : 12,
+    "position_name" : "Right Midfield"
+},
+{
+    "position_id" : 13,
+    "position_name" : "Right Center Midfield"
+},
+{
+    "position_id" : 14,
+    "position_name" : "Center Midfield"
+},
+{
+    "position_id" : 15,
+    "position_name" : "Left Center Midfield"
+},
+{
+    "position_id" : 16,
+    "position_name" : "Left Midfield"
+},
+{
+    "position_id" : 17,
+    "position_name" : "Right Wing"
+},
+{
+    "position_id" : 18,
+    "position_name" : "Right Attacking Midfield"
+},
+{
+    "position_id" : 19,
+    "position_name" : "Center Attacking Midfield"
+},
+{
+    "position_id" : 20,
+    "position_name" : "Left Attacking Midfield"
+},
+{
+    "position_id" : 21,
+    "position_name" : "Left Wing"
+},
+{
+    "position_id" : 22,
+    "position_name" : "Right Center Forward"
+},
+{
+    "position_id" : 23,
+    "position_name" : "Striker"
+},
+{
+    "position_id" : 24,
+    "position_name" : "Left Center Forward"
+},
+{
+    "position_id" : 25,
+    "position_name" : "Secondary Striker"
+},
+{
+    "position_id" : 0,
+    "position_name" : "Substitute"
+}
+]

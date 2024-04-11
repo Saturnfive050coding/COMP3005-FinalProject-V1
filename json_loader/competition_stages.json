@@ -1,0 +1,110 @@
+[
+    {
+        "stage_id": 1,
+        "stage_name": "Regular Season"
+    },
+    {
+        "stage_id": 2,
+        "stage_name": "Play-In Round"
+    },
+    {
+        "stage_id": 6,
+        "stage_name": "Europa League Play-offs - Semi-finals"
+    },
+    {
+        "stage_id": 8,
+        "stage_name": "MLS Cup - Conference Semi-finals"
+    },
+    {
+        "stage_id": 9,
+        "stage_name": "3rd Qualifying Round"
+    },
+    {
+        "stage_id": 10,
+        "stage_name": "Group Stage"
+    },
+    {
+        "stage_id": 11,
+        "stage_name": "Quarter-finals"
+    },
+    {
+        "stage_id": 12,
+        "stage_name": "Europa Leauge Play-offs - Finals"
+    },
+    {
+        "stage_id": 13,
+        "stage_name": "16th Finals"
+    },
+    {
+        "stage_id": 14,
+        "stage_name": "Promotion Play-offs - Final"
+    },
+    {
+        "stage_id": 15,
+        "stage_name": "Semi-finals"
+    },
+    {
+        "stage_id": 18,
+        "stage_name": "Promotion Play-offs - Semi-finals"
+    },
+    {
+        "stage_id": 19,
+        "stage_name": "Preliminary Round"
+    },
+    {
+        "stage_id": 20,
+        "stage_name": "2nd Round"
+    },
+    {
+        "stage_id": 21,
+        "stage_name": "Europa League Play-offs - Quarter-finals"
+    },
+    {
+        "stage_id": 22,
+        "stage_name": "2nd Qualifying Round"
+    },
+    {
+        "stage_id": 23,
+        "stage_name": "MLS Cup - Conference Finals"
+    },
+    {
+        "stage_id": 24,
+        "stage_name": "Promotion Play-offs - 1st Round"
+    },
+    {
+        "stage_id": 25,
+        "stage_name": "3rd Place Final"
+    },
+    {
+        "stage_id": 26,
+        "stage_name": "Final"
+    },
+    {
+        "stage_id": 27,
+        "stage_name": "Promotion Play-offs - 2nd Round"
+    },
+    {
+        "stage_id": 28,
+        "stage_name": "Play-offs"
+    },
+    {
+        "stage_id": 29,
+        "stage_name": "1st Qualifying Round"
+    },
+    {
+        "stage_id": 31,
+        "stage_name": "Preliminary Round - Semi-finals"
+    },
+    {
+        "stage_id": 33,
+        "stage_name": "8th Finals"
+    },
+    {
+        "stage_id": 34,
+        "stage_name": "1st Phase"
+    },
+    {
+        "stage_id": 35,
+        "stage_name": "Preliminary Round - Final"
+    }
+]

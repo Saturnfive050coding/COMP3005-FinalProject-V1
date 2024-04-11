@@ -1,0 +1,116 @@
+1.
+SELECT player.player_name, AVG(statsbomb_xg) AS XG_AVG, competition.season_id
+	FROM player, event, event_type, competition
+	WHERE statsbomb_xg IS NOT NULL
+	AND event_type.event_id = event.event_id
+	AND event.player_id = player.player_id
+	AND event.season_id = competition.season_id
+	AND event.season_id = 90
+	GROUP BY player.player_name, competition.season_id
+	ORDER BY XG_AVG DESC;
+
+2.
+SELECT player.player_name, COUNT(event_type.type_name) AS shot_count
+FROM event_type, event, player, competition
+	WHERE event_type.event_id = event.event_id
+	AND event.player_id = player.player_id
+	AND event_type.type_name = 'shot'
+	AND event.season_id = competition.season_id
+	AND competition.season_id = 90
+	GROUP BY player.player_name, event_type.type_name
+	ORDER BY shot_count DESC;
+
+3.
+SELECT player.player_name, COUNT(event_type.type_name) AS shot_count
+FROM event_type, event, player, competition
+	WHERE event_type.event_id = event.event_id
+	AND event.player_id = player.player_id
+	AND event_type.type_name = 'shot'
+	AND event.season_id = competition.season_id
+	AND event.season_id != 44
+	AND event_type.first_time = 'true'
+	GROUP BY player.player_name, event_type.type_name
+	ORDER BY shot_count DESC;
+
+4.
+SELECT team.team_name, COUNT(event_type.type_name) AS pass_count
+FROM event_type, event, player, team, competition
+	WHERE event_type.event_id = event.event_id
+	AND event.player_id = player.player_id
+	AND player.team_id = team.team_id
+	AND event_type.type_name = 'pass'
+	AND event.season_id = competition.season_id
+	AND event.season_id = 90
+	GROUP BY team.team_name, event_type.type_name
+	ORDER BY pass_count DESC;
+
+5.
+SELECT player.player_name, COUNT(event_type.type_name) AS pass_success_count
+FROM event_type, event, player, team, competition
+	WHERE event_type.event_id = event.event_id
+	AND event_type.type_name = 'pass'
+	AND event_type.recipient_id = player.player_id
+	AND player.team_id = team.team_id
+	AND event.season_id = competition.season_id
+	AND event.season_id = 90
+	GROUP BY player.player_name, event_type.type_name
+	ORDER BY pass_success_count DESC;
+
+6.
+SELECT team.team_name, COUNT(event_type.type_name) AS shot_count
+FROM event_type, event, player, team, competition
+	WHERE event_type.event_id = event.event_id
+	AND event.player_id = player.player_id
+	AND player.team_id = team.team_id
+	AND event_type.type_name = 'shot'
+	AND event.season_id = competition.season_id
+	AND event.season_id = 44
+	GROUP BY team.team_name, event_type.type_name
+	ORDER BY shot_count DESC;
+
+7.
+SELECT player.player_name, COUNT(event_type.type_name) AS pass_count
+FROM event_type, event, player, competition
+	WHERE event_type.event_id = event.event_id
+	AND event.player_id = player.player_id
+	AND event_type.type_name = 'pass'
+	AND event_type.through_ball = 'true'
+	AND event.season_id = competition.season_id
+	AND event.season_id = 90
+	GROUP BY player.player_name, event_type.type_name
+	ORDER BY pass_count DESC;
+
+8.
+SELECT team.team_name, COUNT(event_type.type_name) AS pass_count
+FROM event_type, event, player, team, competition
+	WHERE event_type.event_id = event.event_id
+	AND event.player_id = player.player_id
+	AND player.team_id = team.team_id
+	AND event_type.type_name = 'pass'
+	AND event_type.through_ball = 'true'
+	AND event.season_id = competition.season_id
+	AND event.season_id = 90
+	GROUP BY team.team_name, event_type.type_name
+	ORDER BY pass_count DESC;
+
+9.
+SELECT player.player_name, COUNT(event_type.type_name) AS dribble_count
+FROM event_type, event, player, competition
+	WHERE event_type.event_id = event.event_id
+	AND event.player_id = player.player_id
+	AND event_type.type_name = 'dribble'
+	AND event_type.outcome_id = 8
+	AND event.season_id = competition.season_id
+	AND event.season_id = 90
+	GROUP BY player.player_name, event_type.type_name
+	ORDER BY dribble_count DESC;
+
+10.
+SELECT player.player_name, COUNT(event.type_id) AS dribbled_past_count
+FROM event, player, competition
+	WHERE event.player_id = player.player_id
+	AND event.type_id = 39
+	AND event.season_id = competition.season_id
+	AND competition.season_id = 90
+	GROUP BY player.player_name, event.type_id
+	ORDER BY dribbled_past_count DESC;
