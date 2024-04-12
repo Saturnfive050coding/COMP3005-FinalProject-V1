@@ -7,8 +7,8 @@ import lineupinput
 import matchinput
 import eventinput
 
-dbName = "finalproject"
-password = "Izander2002"
+dbName = "project_database"
+password = "1234"
 host = "localhost"
 port = "5432"
 

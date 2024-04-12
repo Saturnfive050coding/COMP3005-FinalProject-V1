@@ -109,7 +109,6 @@ def input_lineup(cursor, conn, lineup, match_id):
             if key == "lineup":
                 #print(value)
                 for j in value:
-                    print(j['player_name'])
                     player_input(cursor, conn, j, team_id)
                     position_input(cursor, conn, j['positions'], j['player_id'], match_id)
         columns = "(season_id, "
@@ -121,5 +120,4 @@ def lineups(cursor, conn):
 
     for i in filenames:
         match_id = int(Path("lineups/"+i).stem)
-        print(match_id)
         input_lineup(cursor, conn, 'lineups/'+i, match_id)
